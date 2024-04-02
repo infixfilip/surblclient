@@ -8,7 +8,7 @@ readme = "README.md"
 repository = "http://github.com/filipsalomonsson/surblclient"
 
 [tool.poetry.dependencies]
-python = "^3.7.2"
+python = "^3.10"
 
 
 [tool.poetry.group.test.dependencies]
@@ -18,7 +18,7 @@ pytest-cov = "^4.0.0"
 
 [tool.poetry.group.dev.dependencies]
 pylint = "^2.15.5"
-black = "^22.10.0"
+black = "^24.1.0"
 isort = "^5.10.1"
 
 [build-system]
